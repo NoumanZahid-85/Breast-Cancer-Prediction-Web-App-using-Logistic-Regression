@@ -1,0 +1,98 @@
+/* =========================
+   App Background
+   ========================= */
+.stApp {
+    background-color: #F4F4F4;
+}
+
+/* =========================
+   Sidebar Styling
+   ========================= */
+section[data-testid="stSidebar"] {
+    background-color: #36808b;
+    border-right: 2px solid #005461;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] label {
+    color: #000000 !important;
+}
+
+/* =========================
+   Typography
+   ========================= */
+h1, h2, h3, h4, h5, h6 {
+    color: #000000 !important;
+}
+
+p, .stMarkdown {
+    color: #000607;
+}
+
+/* =========================
+   Prediction Card
+   ========================= */
+.prediction-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #00B7B5;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-title {
+    color: #005461;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   Diagnosis Badge
+   ========================= */
+.diagnosis-badge {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.benign {
+    background-color: #00B7B5;
+    border: 1px solid #018790;
+}
+
+.malignant {
+    background-color: #005461;
+    border: 1px solid #005461;
+}
+
+/* =========================
+   Probability Text
+   ========================= */
+.probability-text {
+    font-size: 1.1rem;
+    color: #005461;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+/* =========================
+   Disclaimer
+   ========================= */
+.disclaimer {
+    font-size: 0.75rem;
+    color: #018790;
+    margin-top: 25px;
+    line-height: 1.4;
+    border-top: 1px solid #00B7B5;
+    padding-top: 15px;
+}
